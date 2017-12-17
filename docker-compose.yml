@@ -7,7 +7,7 @@ services:
       - "./sito/db/:/var/lib/mysql"
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_ROOT_PASSWORD=root
     
   web:
     image: ubuntu_django:v1
